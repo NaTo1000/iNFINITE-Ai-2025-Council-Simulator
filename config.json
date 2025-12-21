@@ -1,0 +1,56 @@
+{
+  "simulation": {
+    "name": "iNFINITE AI 2025 Council Simulator",
+    "version": "1.0.0",
+    "description": "Highly complex and technically accurate simulation engine"
+  },
+  "safety_rules": {
+    "time_restrictions": {
+      "night_operations_blocked": true,
+      "night_start_hour": 21,
+      "night_end_hour": 6,
+      "weekend_operations_blocked": true,
+      "business_hours_start": 9,
+      "business_hours_end": 17
+    },
+    "circuit_breaker": {
+      "enabled": true,
+      "failure_threshold": 3,
+      "window_hours": 1,
+      "cooldown_minutes": 30
+    },
+    "risk_thresholds": {
+      "critical_requires_business_hours": true,
+      "high_risk_night_block": true,
+      "minimum_approval_weight": 0.5
+    }
+  },
+  "council_configuration": {
+    "quorum_required": true,
+    "minimum_members": 3,
+    "unanimous_required_for_critical": false,
+    "voting_system": "weighted_majority"
+  },
+  "stress_test": {
+    "default_scenarios": 100,
+    "scenario_types": [
+      "random",
+      "time_boundary",
+      "risk_escalation",
+      "cascade_failure"
+    ],
+    "failure_injection_rate": 0.1
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "save_to_file": true,
+    "file_path": "simulator.log"
+  },
+  "reporting": {
+    "output_format": "json",
+    "include_metrics": true,
+    "include_decision_history": true,
+    "max_history_size": 1000
+  }
+}
