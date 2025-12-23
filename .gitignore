@@ -1,0 +1,136 @@
+# Gitignore for iNFINITE AI Council Simulator
+
+# Secrets and sensitive data
+secrets/
+*.secret
+*.key
+*.pem
+*.p12
+.env
+.env.local
+.env.*.local
+
+# Credentials
+credentials.json
+service-account.json
+auth-config.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+node_modules/
+bower_components/
+vendor/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log.*
+
+# Test coverage
+coverage/
+.nyc_output/
+*.lcov
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Package manager lock files (depending on team preference)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Compiled files
+*.pyc
+*.pyo
+__pycache__/
+*.class
+*.o
+*.a
+
+# Configuration overrides (may want to keep some)
+config/local.json
+config/secrets.json
+config/*.local.json
+
+# Research data (large files)
+research/logs/*.txt
+research/logs/*.csv
+research/logs/*.json
+research/conference/recordings/
+research/data/raw/
+
+# Generated documentation
+docs/api/generated/
+docs/coverage/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# VM and container files
+.vagrant/
+*.box
+.docker/
+
+# Metrics and monitoring data
+metrics/data/
+monitoring/cache/
+
+# Generated reports
+reports/generated/
+*.pdf
+*.xlsx
+
+# Keep directory structure but ignore contents
+# Use .gitkeep files in empty directories you want to track
