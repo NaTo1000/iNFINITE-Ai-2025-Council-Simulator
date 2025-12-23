@@ -197,10 +197,18 @@ Comprehensive metrics dashboard for monitoring research, protocols, and continuo
 ### Performance
 **Note**: These targets will be validated during implementation and load testing phases.
 
-- Dashboard load time: <2 seconds
-- Chart render time: <500ms
-- Real-time update latency: <1 second
-- Support 100+ concurrent users
+**Baseline Assumptions**:
+- Expected concurrent users: 100-500
+- Average dashboard components: 6-8 charts per page
+- Data refresh frequency: 1-5 minutes depending on metric
+- Network latency: <100ms
+- Backend API response time: <200ms
+
+**Performance Targets**:
+- Dashboard load time: <2 seconds (initial page load with cached data)
+- Chart render time: <500ms (per chart with up to 1000 data points)
+- Real-time update latency: <1 second (from data change to UI update)
+- Support 100+ concurrent users (with horizontal scaling capability for 500+)
 
 ## Access Control
 
