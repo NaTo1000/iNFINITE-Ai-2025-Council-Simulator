@@ -2,9 +2,9 @@
 
 ## Conference Information
 - **Conference Name**: AI Council Simulation Research Conference 2025
-- **Date**: [YYYY-MM-DD]
-- **Location**: [Virtual/Physical]
-- **Participants**: [Number and roles]
+- **Date**: [YYYY-MM-DD, e.g., 2025-03-15]
+- **Location**: [Virtual/Physical, e.g., Virtual via Zoom or Physical at Convention Center]
+- **Participants**: [Number and roles, e.g., 50 participants including researchers, developers, and stakeholders]
 
 ## Research Presentations
 

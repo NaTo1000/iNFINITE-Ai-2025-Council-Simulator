@@ -147,6 +147,8 @@ Quick verification of basic functionality:
 ## Testing Tools
 
 ### Unit Testing
+**Note**: These tools are listed for future implementation when code is developed. Currently, the project is documentation-focused.
+
 - **JavaScript**: Jest, Mocha, Jasmine
 - **Python**: pytest, unittest
 - **Go**: testing package

@@ -195,6 +195,8 @@ Comprehensive metrics dashboard for monitoring research, protocols, and continuo
 - Rate limiting
 
 ### Performance
+**Note**: These targets will be validated during implementation and load testing phases.
+
 - Dashboard load time: <2 seconds
 - Chart render time: <500ms
 - Real-time update latency: <1 second

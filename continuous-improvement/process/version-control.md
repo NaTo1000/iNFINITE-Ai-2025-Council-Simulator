@@ -85,14 +85,24 @@ For internal branches (preferred):
 ### Fork Lifecycle
 
 #### 1. Creation
+
+**For Internal Contributors (Branch Fork - Preferred):**
 ```bash
-# Create branch fork
+# Create a feature/improvement branch
 git checkout develop
 git pull origin develop
 git checkout -b improvement/protocol-v2
+```
 
-# Or create repository fork (external contributors)
-# Fork via GitHub UI, then clone
+**For External Contributors (Repository Fork):**
+```bash
+# 1. Fork the repository via GitHub UI
+# 2. Clone your forked repository
+git clone https://github.com/YOUR_USERNAME/iNFINITE-Ai-2025-Council-Simulator.git
+cd iNFINITE-Ai-2025-Council-Simulator
+
+# 3. Add upstream remote
+git remote add upstream https://github.com/NaTo1000/iNFINITE-Ai-2025-Council-Simulator.git
 ```
 
 #### 2. Development

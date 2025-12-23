@@ -281,6 +281,8 @@ Prepare reports
 - Recovery time objective: <1 hour
 - Recovery point objective: <15 minutes
 
+**Note**: Detailed disaster recovery plan will be created as part of Phase 9 deployment planning. See `IMPLEMENTATION_CHECKLIST.md` for timeline.
+
 ## Future Enhancements
 1. Machine learning for anomaly detection
 2. Real-time streaming analytics
